@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./calculator.css">
+
+    <title>Calculator</title>
+</head>
+
+<body>
+    <h1><i><b>Calculator</b></i></h1>
+    <form class="calculator">
+        <input type="text" id="display"><br>
+
+        <input type="button" value="7" onclick="addtodisplay('7')">
+        <input type="button" value="8" onclick="addtodisplay('8')">
+        <input type="button" value="9" onclick="addtodisplay('9')">
+        <input type="button" value="+" class="sym" onclick="addtodisplay('+')"><br>
+
+        <input type="button" value="4" onclick="addtodisplay('4')">
+        <input type="button" value="5" onclick="addtodisplay('5')">
+        <input type="button" value="6" onclick="addtodisplay('6')">
+        <input type="button" value="-"class="sym" onclick="addtodisplay('-')"><br>
+
+        <input type="button" value="1" onclick="addtodisplay('1')">
+        <input type="button" value="2" onclick="addtodisplay('2')">
+        <input type="button" value="3" onclick="addtodisplay('3')">
+        <input type="button" value="x" class="sym" onclick="addtodisplay('*')"><br>
+
+        <input type="button" value="0" onclick="addtodisplay('0')">
+        <input type="button" value="C" id="color" onclick="clearvalue('C')">
+        <input type="button" value="." class="sym" onclick="addtodisplay('.')">
+        <input type="button" value="/" class="sym" onclick="addtodisplay('/')"><br>
+
+        <input type="button" value="=" id="equal" class="sym" onclick="calmeth()">
+        <input type="button" value="⇽" class="sym" onclick="backspace()">
+    </form> 
+    <script src="./calculator.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+input {
+    padding: 20px;
+    font-size: large;
+    font-weight: 600;
+    margin: 2px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    
+}
+input:hover{
+    background-color: rgb(205, 201, 201);
+}
+
+#display {
+    width: 120px;
+    font-size: 24px;
+    padding: 8px;
+    margin-bottom: 10px;
+    text-align: right;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background-color: rgb(196, 194, 194);
+}
+
+.calculator {
+    background-color: black;
+    display: inline-block;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.sym {
+    background-color: orange;
+    color: white;
+}
+
+#color {
+    background-color: orangered;
+    color: white;
+}
+
+#equal {
+    padding: 10px 40px;
+}
